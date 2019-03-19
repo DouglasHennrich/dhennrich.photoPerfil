@@ -1,0 +1,41 @@
+/* ===============================
+@ Classes
+=============================== */
+'.localFaSolid': { font: { fontFamily: 'FontAwesome5FreeSolid' } }
+
+/* ===============================
+@ IDs
+=============================== */
+/*
+*/
+'#photoBtn': {
+  top: 20,
+  backgroundColor: 'transparent',
+  width: 80,
+  height: 80,
+  borderRadius: 40,
+  borderWidth: 2,
+  borderColor: Alloy.CFG.style.widgets.photoPerfil.primaryColor,
+}
+
+/*
+*/
+'#icon': {
+  font: { fontSize: 40 },
+  color: Alloy.CFG.style.widgets.photoPerfil.primaryColor,
+  touchEnabled: false,
+  left: 0,
+  right: 0,
+  textAlign: 'center'
+}
+
+/*
+*/
+'#photo': {
+  width: 80,
+  height: 80,
+  borderRadius: 40,
+  rounded: true,
+  defaultImage: '',
+  touchEnabled: false
+}

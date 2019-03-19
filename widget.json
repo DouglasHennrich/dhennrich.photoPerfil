@@ -1,0 +1,15 @@
+{
+	"id": "dhennrich.photoPerfil",
+	"name": "dhennrich.photoPerfil",
+	"author": "Douglas Hennrich",
+	"version": "1.0.0",
+	"copyright":"",
+	"license":"Apache License, Version 2.0",
+	"min-alloy-version": "1.5",
+	"min-titanium-version":"7.4.0",
+	"tags":"photo",
+	"platforms":"android,ios",
+	"modules": {
+		"ti.imagefactory": "*"
+	}
+}

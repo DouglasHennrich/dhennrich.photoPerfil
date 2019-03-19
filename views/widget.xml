@@ -1,0 +1,6 @@
+<Alloy>
+  <View id='photoBtn'>
+    <Label class='localFaSolid' id='icon' />
+    <ImageView id='photo' />
+  </View>
+</Alloy>
